@@ -1,0 +1,15 @@
+server:
+  port: 8889
+spring:
+  application.name: ADMIN-SERVICE
+  jpa.hibernate.ddl-auto: none
+  datasource.initialization-mode: always
+  datasource:
+    url: jdbc:mysql://localhost:3306/greatlearning?autoReconnect=true&useSSL=false
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: pluralsight
+
+management:
+  security:
+    enabled: false
