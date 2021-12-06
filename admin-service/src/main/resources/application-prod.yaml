@@ -13,3 +13,8 @@ spring:
 management:
   security:
     enabled: false
+
+server.ssl:
+  key-store: adminkeystore
+  key-store-password: adminkeystore
+  key-alias: adminkeystore
